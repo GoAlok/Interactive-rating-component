@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Interactive rating component</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="main_container">
+    <div class="circle_star">
+      <img src="./images/icon-star.svg" alt="">
+    </div>
+    <div class="question_detail_block">
+      <h2>How did we do?</h2>
+      <p class="detail"> 
+        Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
+      </p>
+    </div>
+    <div class="number_circle">
+      <div class="numb" id="num_1">
+        1
+      </div>
+      <div class="numb" id="num_2">
+        2
+      </div>
+      <div class="numb" id="num_3">
+        3
+      </div>
+      <div class="numb" id="num_4">
+        4
+      </div>
+      <div class="numb" id="num_5">
+        5
+      </div>
+    </div>
+    <button class="btn" onclick="submit()" >SUBMIT</button>
+  </div>
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
